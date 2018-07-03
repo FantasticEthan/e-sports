@@ -1,3 +1,5 @@
+# author：Ethan
+
 import requests
 from requests.exceptions import RequestException
 import json
