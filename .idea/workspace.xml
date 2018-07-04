@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01dd512f-d181-48be-ba29-6cad64c29d40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/final-report.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/drop_src/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/output/2018夏季赛-2018-07-01-17-05-58.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/League Of Legends(LOL) Data Analysis.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/PlayerCrawler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/TeamCrawler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/drop_src/MatchCrawler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/output/player.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webCrawler/output/team.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/final-report.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webCrawler/crawler.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webCrawler/TeamPlayerCrawler.py" afterPath="$PROJECT_DIR$/webCrawler/drop_src/TeamPlayerCrawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webCrawler/createSeasonDict.py" afterPath="$PROJECT_DIR$/webCrawler/createSeasonDict.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webCrawler/season_Dictonary.txt" afterPath="$PROJECT_DIR$/webCrawler/season_Dictonary.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webCrawler/TeamCrawler.py" afterPath="$PROJECT_DIR$/webCrawler/TeamCrawler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webCrawler/output/team.txt" afterPath="$PROJECT_DIR$/webCrawler/output/team.txt" />
     </list>
     <ignored path="e-sports.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerCrawler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerCrawler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webCrawler/PlayerCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="347">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webCrawler/output/player.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -118,6 +114,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ethan &lt;5279738@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -190,6 +191,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-sports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-sports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webCrawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,13 +546,21 @@
       <option name="presentableId" value="Default" />
       <updated>1530586288573</updated>
     </task>
+    <task id="LOCAL-00001" summary="'data structure and crawler'">
+      <created>1530704083802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530704083802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="790" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,6 +590,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'data structure and crawler'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'data structure and crawler'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,8 +723,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webCrawler/PlayerCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="347">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webCrawler/output/team.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webCrawler/output/player.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding />
         </state>
       </provider>
