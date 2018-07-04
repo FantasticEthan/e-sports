@@ -6,7 +6,7 @@ a = [('660', '2018 欧美对抗赛'), ('655', '2018 亚洲对抗赛'), ('658', '
 
 season_dict = {}
 for i in a:
-    season_dict[i[1]] = i[0]
+    season_dict[i[1].replace(' ', '')] = i[0]
 
 # 保存
 f = open('season_Dictonary.txt', 'w')
