@@ -53,7 +53,7 @@ for i in range(len(target_urls)):
     tds = soup.select('td')
 
     for td in tds:
-        if count == 20:
+        if count == 21:
             data.append(temp)
             count = 0
             temp = []
