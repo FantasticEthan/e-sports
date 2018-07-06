@@ -3,6 +3,11 @@
 
 import requests
 from bs4 import BeautifulSoup
+import json
+import re
+
+season_file = open('season_Dictonary.txt', 'r')
+season_dict=json.loads(season_file.read())
 
 url_list = [
     'https://www.wanplus.com/lol/event?t=3&year=2014&page=1',
@@ -27,6 +32,7 @@ data = [('名次','选手','战队','位置','出场次数','KDA','参团率','�
          'GPM','CSPM','每分钟输出','输出占比','每分钟承受伤害','承受伤害占比','每分钟插眼数','每分钟排眼数')]
 
 for target in url_list:
+    year = re.search(r'(\d{4})',target).group(0)
     res = requests.get(url=target)
     soup = BeautifulSoup(res.text,'lxml')
     div = soup.select('.event-list')[0]
@@ -39,21 +45,23 @@ for target in url_list:
             # print(titile_id)
             titles_id.append(titile_id)
             url = 'https://www.wanplus.com/lol' + temp + '/player'
-            target_urls.append(url)
+            target_urls.append((year,url))
 
 for i in range(len(target_urls)):
-    data.append(titles_id[i])
+    # data.append(titles_id[i])
     target_url = target_urls[i]
 # for target_url in target_urls:
 #     print(target_url)
     count = 0
     temp = []
-    res = requests.get(url=target_url)
+    res = requests.get(url=target_url[1])
     soup = BeautifulSoup(res.text, 'lxml')
     tds = soup.select('td')
 
     for td in tds:
         if count == 21:
+            temp.append(target_url[0])
+            temp.append(season_dict[titles_id[i]])
             data.append(temp)
             count = 0
             temp = []
